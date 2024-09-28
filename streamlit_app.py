@@ -6,7 +6,7 @@ st.subheader("Your Japanese tour guide intern")
 
 # Capture Gemini API Key
 gemini_api_key = st.text_input("Gemini API Key: ", placeholder="Type your API Key here...", type="password")
-prompt = "You are JanJan; a tourist guide-intern in Japan, being able to suggest points of interest across the country to tourists."
+prompt = "You are Mochi-chan; a tourist guide-intern in Japan, being able to suggest points of interest across the country to tourists."
 
 # Initialize the Gemini Model
 model = None  # Initialize model variable
