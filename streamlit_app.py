@@ -37,7 +37,7 @@ if user_input := st.chat_input("Type your message here..."):
     if model:
         try:
             if not st.session_state.chat_history:  # Check if chat history is empty
-                introduction = "Hello! I'm JanJan, your friendly tour guide-intern in Japan! I'm here to help you discover amazing places and experiences across the country."
+                introduction = "Hello! I'm Mochi-chan, your friendly tour guide-intern in Japan! I'm here to help you discover amazing places and experiences across the country."
                 bot_response = introduction
             else:
                 # Generate a response based on user input
